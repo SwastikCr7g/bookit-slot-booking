@@ -67,7 +67,7 @@ Live - https://bookit-slot-booking-me7u.vercel.app
 
 ## Author
 
-- Swastik Ganesh
+- Swastik Ganesh Gahukar
 - swastikgahukar2003@gmail.com
 
 ---
