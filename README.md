@@ -30,23 +30,22 @@ A full-stack web application for experience slot booking, built for the Highway 
 
 ## Hosted Demo
 
-- **Live App:** [https://your-assignment-app.vercel.app](https://your-assignment-app.vercel.app)  
-  (Replace with your actual deployment URL)
+- **Live App:**
+Live - https://bookit-slot-booking-me7u.vercel.app
 
 ---
 
 ## Repository
 
 - **Frontend & Backend Code:**  
-  [https://github.com/your-github-username/your-repo-name](https://github.com/your-github-username/your-repo-name)  
-  (Replace with your GitHub repo URL)
+ Github Repo-  https://github.com/SwastikCr7g/bookit-slot-booking
 
 ---
 
 ## How to Run Locally
 
 1. **Clone the repository:**  
-   `git clone https://github.com/your-github-username/your-repo-name.git`
+   `git clone- https://github.com/SwastikCr7g/bookit-slot-booking`
 
 2. **Install dependencies:**  
     - `cd frontend`
@@ -69,16 +68,10 @@ A full-stack web application for experience slot booking, built for the Highway 
 ## Author
 
 - Swastik Ganesh
-- [swastikgahukarcr7@gmail.com](mailto:swastikgahukarcr7@gmail.com)
+- swastikgahukar2003@gmail.com
 
 ---
 
-## Resume
-
-- Link to Resume (Google Drive, viewer access):  
-  [insert your Google Drive resume link here]
-
----
 
 ## Assignment Instructions
 
