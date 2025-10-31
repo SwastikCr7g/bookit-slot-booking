@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reset Slots</title>
+</head>
+<body>
+  <button id="resetBtn">Reset Slots</button>
+
+  <script>
+    const button = document.getElementById('resetBtn');
+    button.addEventListener('click', async () => {
+      try {
+        const response = await fetch('http://192.168.1.35:5000/api/admin/reset-slots', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' }
+        });
+        const data = await response.json();
+        alert(data.message || 'Reset complete');
+      } catch (err) {
+        alert('Error: ' + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

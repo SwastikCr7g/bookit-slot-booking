@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BookIt Experiences Slot Booking – Assignment Submission
 
-## Getting Started
+## Description
 
-First, run the development server:
+A full-stack web application for experience slot booking, built for the Highway Delite Full Stack Developer challenge. Users can browse travel experiences, view details, and book an available slot with a responsive clean UI.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Home page: List all experiences with images/descriptions.
+- Details page: Show available dates/slots, details, and slot-specific "Book" button.
+- Checkout page: Collects name, email, promo code (optional) with price summary.
+- Result page: Displays booking confirmation or failure status, and any discount.
+- Responsive, pixel-perfect (per Figma) layout built using TailwindCSS.
+- Prevents double-booking, displays real slot status live.
+- API-driven: All experience, slot, and booking information is via backend REST API.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- React (Next.js)
+- TypeScript
+- TailwindCSS
+- Node.js/Express (or Flask/FastAPI if your backend uses Python)
+- Deployed on [Vercel/Netlify/Render/Other]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Hosted Demo
 
-## Deploy on Vercel
+- **Live App:** [https://your-assignment-app.vercel.app](https://your-assignment-app.vercel.app)  
+  (Replace with your actual deployment URL)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Repository
+
+- **Frontend & Backend Code:**  
+  [https://github.com/your-github-username/your-repo-name](https://github.com/your-github-username/your-repo-name)  
+  (Replace with your GitHub repo URL)
+
+---
+
+## How to Run Locally
+
+1. **Clone the repository:**  
+   `git clone https://github.com/your-github-username/your-repo-name.git`
+
+2. **Install dependencies:**  
+    - `cd frontend`
+    - `npm install`
+    - `cd ../backend`
+    - `npm install` (or `pip install -r requirements.txt` for Python backend)
+
+3. **Set up environment:**  
+    - Create a `.env` (if needed).
+
+4. **Start servers:**  
+    - In `/backend`: `npm start` or `python app.py`
+    - In `/frontend`: `npm run dev`
+
+5. **Open:**  
+    - Visit `http://localhost:3000` in your browser.
+
+---
+
+## Author
+
+- Swastik Ganesh
+- [swastikgahukarcr7@gmail.com](mailto:swastikgahukarcr7@gmail.com)
+
+---
+
+## Resume
+
+- Link to Resume (Google Drive, viewer access):  
+  [insert your Google Drive resume link here]
+
+---
+
+## Assignment Instructions
+
+This assignment was completed as per Highway Delite’s guidelines and Figma mockup.
+
+---
+
+
